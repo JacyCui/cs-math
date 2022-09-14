@@ -75,7 +75,8 @@ module.exports = {
                 text: '目录',
                 items: [
                     {text: '0 集合与数学记号', link: '/00-sets-and-mathematical-notation/'},
-                    {text: '1 命题逻辑', link: '/01-propositional-logic/'}
+                    {text: '1 命题逻辑', link: '/01-propositional-logic/'},
+                    {text: '2 证明方法', link: '/02-proofs/'}
                 ]
             },
             { text: '笔者博客', link: 'https://blog.cuijiacai.com' },
@@ -90,7 +91,8 @@ module.exports = {
             // ['/demo', 'Explicit link text'], // 显示地指定文字
             '/preface/',
             '/00-sets-and-mathematical-notation/',
-            '/01-propositional-logic/'
+            '/01-propositional-logic/',
+            '/02-proofs/'
         ],
 
         // 关于页脚

@@ -459,7 +459,10 @@ $$
     - 上面两个式子等价变形之后显然是不一样的，一个是任意y，另一个是存在y（其余部分都相同）。
     - 这里还可以举反例说明，反例略。
 2. 不等价。
-    - 命题1 $\equiv\neg\exists x\forall y(\neg P(x,y)\vee\neg Q(x,y))\equiv\neg\exists x\forall y\neg(P(x,y)\wedge Q(x,y)) \equiv\forall x\exists y(P(x,y)\wedge Q(x,y))$
+    - 命题1 
+
+    $$\equiv\neg\exists x\forall y(\neg P(x,y)\vee\neg Q(x,y))\equiv\neg\exists x\forall y\neg(P(x,y)\wedge Q(x,y)) \equiv\forall x\exists y(P(x,y)\wedge Q(x,y))$$
+    
     - 到这里形式上和命题2的差别就是存在量词的分配了，而我们在之前的有一道题目中已经验证了只有析取关系才能分配存在量词，合取关系才能分配全称量词量词，否则就不是逻辑恒等式了。
     - 因此，这里的两个命题是不等价的。当然，也可举反例说明，反例略。
 3. 等价。
